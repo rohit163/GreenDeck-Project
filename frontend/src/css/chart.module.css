@@ -1,0 +1,53 @@
+* {
+  margin: 0px;
+}
+.Header {
+  display: flex;
+  margin: auto 40%;
+}
+.Header div {
+  margin: 10px;
+}
+.logo {
+  height: 50px;
+  color: white;
+}
+.Container {
+  color: white;
+  background-color: #1e3799;
+  min-height: 100vh;
+}
+.Chart {
+  margin: 20px auto;
+  background-color: white;
+  width: 100%;
+  overflow-y: scroll;
+}
+.Details {
+  text-align: left;
+  display: block;
+  margin: 40px auto;
+  border: 1px solid white;
+  width: 80%;
+}
+.Details p {
+  margin: 10px;
+  word-spacing: 1rem;
+}
+.ChartButtons button {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+  border: none;
+  background-color: #222f3e;
+  color: white;
+  outline: none;
+}
+
+.ChartButtons button:hover {
+  border: 1px solid #0e1c2b;
+  background-color: white;
+  color: #0e1c2b;
+  transition: 500ms;
+}
