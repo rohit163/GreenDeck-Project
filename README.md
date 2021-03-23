@@ -1,2 +1,2 @@
 # GreenDeck-Project
-## Git clone the repository and do npm run dev
+## Git clone the repository and do 'npm run dev'
