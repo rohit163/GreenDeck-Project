@@ -3,7 +3,8 @@
 }
 .Header {
   display: flex;
-  margin: auto 40%;
+  width: 30%;
+  margin: auto;
 }
 .Header div {
   margin: 10px;
