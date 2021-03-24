@@ -3,7 +3,7 @@ import Styles from "../css/chart.module.css";
 function CurrentDetails({ current }) {
   return (
     <>
-      {current && (
+      {current ? (
         <div className={Styles.Details}>
           <h1>Details</h1>
           <p>
@@ -17,7 +17,7 @@ function CurrentDetails({ current }) {
             </p>
           ))}
         </div>
-      )}
+      ):<h3>Click on one button</h3>}
     </>
   );
 }
