@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(cors());
 
 const data = require("./metrics.json");
+const chartdata = require("./chart.js");
 
 mongoose.connect(
   process.env.CHART_URI,
@@ -26,8 +27,6 @@ mongoose.connect(
     }
   }
 );
-
-const chartdata = require("./chart.js");
 
 app.get("/data", (req, res) => {
   // chartdata.insertMany(data)
