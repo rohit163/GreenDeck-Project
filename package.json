@@ -13,9 +13,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "backend":"nodemon app.js",
-    "frontend":"npm start --prefix frontend",
-    "dev":"concurrently \"npm run backend\" \"npm run frontend\" "
+    "backend": "nodemon app.js",
+    "frontend": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" "
   },
   "author": "",
   "license": "ISC"

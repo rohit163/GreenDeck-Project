@@ -36,6 +36,7 @@ function App() {
       .then((res) => setData(res.data))
       .catch((err) => console.log("error data loading"));
   }, []);
+  
 return (
     <div style={{ textAlign: "center" }} className={Styles.Container}>
       <Header />
